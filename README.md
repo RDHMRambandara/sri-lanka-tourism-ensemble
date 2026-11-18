@@ -1,6 +1,6 @@
 # Forecasting Monthly Tourist Arrivals in Sri Lanka with Ensemble Machine Learning
 
-**Module / course:** [fill in]  **Name:** [fill in]  **Student ID:** [fill in]
+**Module / course:** Machine Learning & Pattern Recognition  **Name:** R.D.H.M. Rambandara  **Student ID:** 224159X
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/YOUR_REPO/blob/main/notebooks/ensemble_tourism_forecasting.ipynb)
 
