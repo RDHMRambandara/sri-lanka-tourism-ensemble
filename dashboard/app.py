@@ -150,7 +150,7 @@ with tab3:
     m1, m2, m3, m4 = st.columns(4)
     m1.metric("Best hybrid says", f"{pf[best_hybrid]:,.0f}")
     m2.metric("Median of all models", f"{med:,.0f}")
-    m3.metric("Range", f"{lo:,.0f} to {hi:,.0f}")
+    m3.metric("Range (low to high)", f"{lo / 1000:,.0f}k to {hi / 1000:,.0f}k")
     m4.metric("Model agreement", level, f"gap {spread_f:.0f}%", delta_color="off")
     show(fl.plot_forecast_bars(pf))
     trend_f, corr_f = [float(x[0]) for x in FULL[best_hybrid].parts(Xf)]

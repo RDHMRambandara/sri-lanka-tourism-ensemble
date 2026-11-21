@@ -300,7 +300,10 @@ def plot_forecast_bars(preds_next):
     fams = {n: f for n, (f, _) in make_models().items()}
     ax.barh([names[i] for i in order], [vals[i] for i in order],
             color=[FAMILY_COLORS.get(fams.get(names[i], "Baseline")) for i in order])
-    ax.set_xlabel("Predicted tourist arrivals")
+    ax.set_xlim(min(vals) * 0.9, max(vals) * 1.04)
+    for y, i in enumerate(order):
+        ax.text(vals[i], y, f" {vals[i]:,.0f}", va="center", fontsize=8)
+    ax.set_xlabel("Predicted tourist arrivals (axis zoomed in to show the differences)")
     ax.grid(alpha=0.3, axis="x")
     fig.tight_layout()
     return fig
