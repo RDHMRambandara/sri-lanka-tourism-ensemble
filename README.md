@@ -6,6 +6,11 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RDHMRambandara/sri-lanka-tourism-ensemble/blob/main/notebooks/ensemble_tourism_forecasting.ipynb)
 
+## Live dashboard
+[Open the dashboard](https://sri-lanka-tourism-forecaster.streamlit.app)
+
+*If the app is asleep, click "Yes, get this app back up!" and wait about a minute.*
+
 ## What this project does
 It compares **bagging** (Random Forest, Extra Trees, Bagging), **boosting** (AdaBoost, Gradient Boosting, XGBoost, LightGBM, CatBoost) and **combining** methods (Voting, Stacking) for forecasting monthly tourist arrivals to Sri Lanka, using **month and monsoon-season** features. It then merges each ensemble with a **trend / time-series model** (hybrid models, including SARIMA) and explains **why** the models behave as they do (rolling backtest, feature tests, permutation importance, SHAP, error analysis).
 
