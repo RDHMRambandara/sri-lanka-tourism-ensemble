@@ -42,7 +42,9 @@ It compares **bagging** (Random Forest, Extra Trees, Bagging), **boosting** (Ada
 ## Repository structure
 ```
 data/        tourism_monthly_2010_2026.csv, DATA_SOURCES.md
-notebooks/   ensemble_tourism_forecasting.ipynb   (the full project, with outputs)
+notebooks/   ensemble_tourism_forecasting.ipynb   (main project, with outputs)
+             02_ann_blends_stacking_final.ipynb   (ANN, blends, stacking, glass ceiling experiment)
+dashboard/   app.py, forecast_lib.py, train_models.py   (Streamlit dashboard)
 figures/     charts exported from the notebook
 requirements.txt
 ```
