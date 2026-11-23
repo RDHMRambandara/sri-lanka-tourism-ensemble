@@ -10,7 +10,7 @@
 [Open the dashboard](https://sri-lanka-tourism-forecaster.streamlit.app)
 
 ## Video
-[Watch the 3-minute project video]([(https://drive.google.com/file/d/1Spy33CsLnyWS1YMfwZSDcH92Ipk0g5Sv/view?usp=sharing))
+[Watch the 3-minute project video](https://drive.google.com/file/d/1Spy33CsLnyWS1YMfwZSDcH92Ipk0g5Sv/view?usp=sharing)
 
 *If the app is asleep, click "Yes, get this app back up!" and wait about a minute.*
 
